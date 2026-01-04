@@ -103,7 +103,7 @@ const Hero = () => {
                     {/* Primary Group: ROLE (emphasized) */}
                     <div className="system-detail-group">
                       <div className="system-detail-label-small">ROLE:</div>
-                      <div className="system-detail-value-primary">Software Engineer — Agentic AI & Intelligent Systems</div>
+                      <div className="system-detail-value-primary">Software Engineer - ML & Agentic AI Systems</div>
                     </div>
 
                     {/* Secondary Group: Location & Status */}
