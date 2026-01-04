@@ -309,6 +309,8 @@ const ProjectsAgent = () => {
     // Save current chat state and section visibility
     setSavedChatState([...messages]);
     setIsChatOpen(false);
+    // When closing, show all sections as fallback
+    setVisibleSections(new Set(["agentic", "apps"]));
   };
 
   const handleReopen = () => {

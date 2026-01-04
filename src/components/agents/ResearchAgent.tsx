@@ -101,6 +101,8 @@ const ResearchAgent = () => {
   const handleClose = () => {
     setSavedChatState([...messages]);
     setIsChatOpen(false);
+    // When closing, show all sections as fallback
+    setVisibleSections(new Set(["publications", "evaluation", "interests", "journey"]));
   };
 
   const handleReopen = () => {
